@@ -63,7 +63,7 @@ console.log(egFamily);
 // // "ALL Strings are CrEaTeD equal" == "All STRINGS are CrEaTED Equal"
 
 // // Your Code:
-console.log("All STRINGS are CrEaTED Equal");
+console.log("ALL Strings are CrEaTeD equal" !== "All STRINGS are CrEaTED Equal");
 
 
 
@@ -154,4 +154,4 @@ console.log(awesomeMessage);
 // // Your Code:
 var big="I am Big like a elepant!";
 var small="I am Small like a mouse!";
-console.log(small + big);
+console.log(big.toUpperCase() + " "+ small.toLowerCase());
