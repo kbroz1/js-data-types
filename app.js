@@ -10,7 +10,7 @@
 var birthYear= 1992;
 var futureYear = 2038;
 var age= futureYear - birthYear;
-document.write (`I will be either ${age}  or  ${age-1} by ${futureYear}`);
+document.write (`I will be either ${age}  or  ${age-1} by ${futureYear} <br />`);
 
 // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
 // Store your current age into a variable.
@@ -36,7 +36,7 @@ var partner= 'Jason Mamoa';
 var  home= 'Hawaii';
 var job= 'Food Blogger';
 
-document.write(`You will be a ${job} in ${home}, and married to ${partner} with ${numKid} kids.`);
+document.write(`You will be a ${job} in ${home}, and married to ${partner} with ${numKid} kids. <br />`);
 
 
 //-1- Write an expression that uses at least 3 different arithmetic operators.
